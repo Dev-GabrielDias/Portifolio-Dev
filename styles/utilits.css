@@ -1,0 +1,21 @@
+.subtitle {
+    font: var(--subtitle);
+    font-weight: regular;
+}
+.title-lg {
+    font: var(--title-lg);
+    font-weight: bold;
+    
+}
+.title-sm {
+    font: var(--text-sm);
+    color: var(--base-color-gray-300);
+    text-align: center;
+    margin-top: 20px;
+    width: 680px;
+    height: 40px;
+}
+.title-md {
+    font: var(--title-md);
+}
+

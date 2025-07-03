@@ -1,0 +1,76 @@
+.contact {
+  width: 100%;
+  padding: 64px 0 64px 0;
+  background: url(../assets/images/Background_Contacts.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 750px;
+  background-size: cover; 
+  background-attachment: fixed;  
+}
+
+.contact header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contact-subtitle {
+  color: var(--color-purple);
+  font: var(--subtitle);
+  margin-bottom: 8px;
+}
+
+.contact-title {
+  color: var(--base-color-gray-100);
+  font: var(--title-md);
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.contact-desc {
+  color: var(--base-color-gray-200);
+  font: var(--text-md);
+  margin-bottom: 32px;
+  
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--base-color-gray-400, #23252b);
+  border: 2px solid #35363a;
+  border-radius: 12px;
+  padding: 18px 28px;
+  color: #e1e1e6;
+  font-size: 18px;
+  font-family: var(--font-family-open-sans, sans-serif);
+  font-weight: 500;
+  text-decoration: none;
+  gap: 16px;
+}
+
+.contact-link .icon img {
+  width: 26px;
+  height: 26px;
+  margin-right: 16px;
+  vertical-align: middle;
+  filter: grayscale(0);
+}
+
+.contact-link .arrow img {
+  width: 22px;
+  height: 22px;
+  margin-left: 16px;
+  opacity: 0.7;
+}

@@ -1,0 +1,101 @@
+.intro {
+   width: 100%;
+   height: 750px;
+   background: url(../assets/images/Background_Intro.png);
+   background-size: cover; 
+   background-attachment: fixed;    
+}
+
+.perfil {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px var(--color-red);
+    }
+    span {
+    background-image: url(../assets/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 2px;
+    right: 10px;
+    z-index: 2;
+}
+}
+
+.intro header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1040px;
+    height: 447px;
+    left: calc(50% - 1040px/2);
+    top: 60px;
+    .tittle {
+        color: var(--color-red);
+    }
+    p {
+    margin-bottom: 8px;
+    margin-top: 56px;
+    } 
+}
+.tech-tags {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--base-color-gray-400);
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-family: var(--font-family-Maven-Pro, sans-serif);
+  font-size: 16px;
+}
+
+.tag img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}  
+.tag.github img { filter: brightness(0) invert(0.85); }
+.tag.html img   { filter: brightness(0) saturate(100%) invert(29%) sepia(97%) saturate(749%) hue-rotate(-13deg) brightness(99%) contrast(92%); }
+.tag.css img    { filter: brightness(0) saturate(100%) invert(41%) sepia(99%) saturate(749%) hue-rotate(170deg) brightness(99%) contrast(92%); }
+.tag.js img     { filter: brightness(0) saturate(100%) invert(86%) sepia(97%) saturate(749%) hue-rotate(1deg) brightness(99%) contrast(92%); }
+.tag.react img  { filter: brightness(0) saturate(100%) invert(75%) sepia(97%) saturate(749%) hue-rotate(170deg) brightness(99%) contrast(92%); }
+.tag.node img   { filter: brightness(0) saturate(100%) invert(70%) sepia(97%) saturate(749%) hue-rotate(60deg) brightness(99%) contrast(92%); }
+
+.seta {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  img {
+  width: 32px;   /* ajuste o tamanho conforme desejar */
+  height: 32px;
+  display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
